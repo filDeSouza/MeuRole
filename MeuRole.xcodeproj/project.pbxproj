@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BDE47D419B0A7EF00843543 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDE47D319B0A7EF00843543 /* Foundation.framework */; };
+		3BDE47D619B0A7EF00843543 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDE47D519B0A7EF00843543 /* CoreGraphics.framework */; };
+		3BDE47D819B0A7EF00843543 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDE47D719B0A7EF00843543 /* UIKit.framework */; };
+		3BDE47DE19B0A7EF00843543 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE47DC19B0A7EF00843543 /* InfoPlist.strings */; };
+		3BDE47E019B0A7EF00843543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE47DF19B0A7EF00843543 /* main.m */; };
+		3BDE47E419B0A7EF00843543 /* FeMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE47E319B0A7EF00843543 /* FeMAppDelegate.m */; };
+		3BDE47E719B0A7EF00843543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE47E519B0A7EF00843543 /* Main.storyboard */; };
+		3BDE47EA19B0A7EF00843543 /* FeMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE47E919B0A7EF00843543 /* FeMViewController.m */; };
+		3BDE47EC19B0A7EF00843543 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE47EB19B0A7EF00843543 /* Images.xcassets */; };
+		3BDE47F319B0A7EF00843543 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDE47F219B0A7EF00843543 /* XCTest.framework */; };
+		3BDE47F419B0A7EF00843543 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDE47D319B0A7EF00843543 /* Foundation.framework */; };
+		3BDE47F519B0A7EF00843543 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDE47D719B0A7EF00843543 /* UIKit.framework */; };
+		3BDE47FD19B0A7EF00843543 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE47FB19B0A7EF00843543 /* InfoPlist.strings */; };
+		3BDE47FF19B0A7EF00843543 /* MeuRoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE47FE19B0A7EF00843543 /* MeuRoleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BDE47F619B0A7EF00843543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BDE47C819B0A7EF00843543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BDE47CF19B0A7EF00843543;
+			remoteInfo = MeuRole;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BDE47D019B0A7EF00843543 /* MeuRole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeuRole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BDE47D319B0A7EF00843543 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BDE47D519B0A7EF00843543 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BDE47D719B0A7EF00843543 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BDE47DB19B0A7EF00843543 /* MeuRole-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeuRole-Info.plist"; sourceTree = "<group>"; };
+		3BDE47DD19B0A7EF00843543 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BDE47DF19B0A7EF00843543 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BDE47E119B0A7EF00843543 /* MeuRole-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeuRole-Prefix.pch"; sourceTree = "<group>"; };
+		3BDE47E219B0A7EF00843543 /* FeMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeMAppDelegate.h; sourceTree = "<group>"; };
+		3BDE47E319B0A7EF00843543 /* FeMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeMAppDelegate.m; sourceTree = "<group>"; };
+		3BDE47E619B0A7EF00843543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BDE47E819B0A7EF00843543 /* FeMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeMViewController.h; sourceTree = "<group>"; };
+		3BDE47E919B0A7EF00843543 /* FeMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeMViewController.m; sourceTree = "<group>"; };
+		3BDE47EB19B0A7EF00843543 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BDE47F119B0A7EF00843543 /* MeuRoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeuRoleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BDE47F219B0A7EF00843543 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3BDE47FA19B0A7EF00843543 /* MeuRoleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeuRoleTests-Info.plist"; sourceTree = "<group>"; };
+		3BDE47FC19B0A7EF00843543 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BDE47FE19B0A7EF00843543 /* MeuRoleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeuRoleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BDE47CD19B0A7EF00843543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDE47D619B0A7EF00843543 /* CoreGraphics.framework in Frameworks */,
+				3BDE47D819B0A7EF00843543 /* UIKit.framework in Frameworks */,
+				3BDE47D419B0A7EF00843543 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BDE47EE19B0A7EF00843543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDE47F319B0A7EF00843543 /* XCTest.framework in Frameworks */,
+				3BDE47F519B0A7EF00843543 /* UIKit.framework in Frameworks */,
+				3BDE47F419B0A7EF00843543 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BDE47C719B0A7EF00843543 = {
+			isa = PBXGroup;
+			children = (
+				3BDE47D919B0A7EF00843543 /* MeuRole */,
+				3BDE47F819B0A7EF00843543 /* MeuRoleTests */,
+				3BDE47D219B0A7EF00843543 /* Frameworks */,
+				3BDE47D119B0A7EF00843543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BDE47D119B0A7EF00843543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BDE47D019B0A7EF00843543 /* MeuRole.app */,
+				3BDE47F119B0A7EF00843543 /* MeuRoleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BDE47D219B0A7EF00843543 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BDE47D319B0A7EF00843543 /* Foundation.framework */,
+				3BDE47D519B0A7EF00843543 /* CoreGraphics.framework */,
+				3BDE47D719B0A7EF00843543 /* UIKit.framework */,
+				3BDE47F219B0A7EF00843543 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BDE47D919B0A7EF00843543 /* MeuRole */ = {
+			isa = PBXGroup;
+			children = (
+				3BDE47E219B0A7EF00843543 /* FeMAppDelegate.h */,
+				3BDE47E319B0A7EF00843543 /* FeMAppDelegate.m */,
+				3BDE47E519B0A7EF00843543 /* Main.storyboard */,
+				3BDE47E819B0A7EF00843543 /* FeMViewController.h */,
+				3BDE47E919B0A7EF00843543 /* FeMViewController.m */,
+				3BDE47EB19B0A7EF00843543 /* Images.xcassets */,
+				3BDE47DA19B0A7EF00843543 /* Supporting Files */,
+			);
+			path = MeuRole;
+			sourceTree = "<group>";
+		};
+		3BDE47DA19B0A7EF00843543 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BDE47DB19B0A7EF00843543 /* MeuRole-Info.plist */,
+				3BDE47DC19B0A7EF00843543 /* InfoPlist.strings */,
+				3BDE47DF19B0A7EF00843543 /* main.m */,
+				3BDE47E119B0A7EF00843543 /* MeuRole-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BDE47F819B0A7EF00843543 /* MeuRoleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BDE47FE19B0A7EF00843543 /* MeuRoleTests.m */,
+				3BDE47F919B0A7EF00843543 /* Supporting Files */,
+			);
+			path = MeuRoleTests;
+			sourceTree = "<group>";
+		};
+		3BDE47F919B0A7EF00843543 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BDE47FA19B0A7EF00843543 /* MeuRoleTests-Info.plist */,
+				3BDE47FB19B0A7EF00843543 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BDE47CF19B0A7EF00843543 /* MeuRole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BDE480219B0A7EF00843543 /* Build configuration list for PBXNativeTarget "MeuRole" */;
+			buildPhases = (
+				3BDE47CC19B0A7EF00843543 /* Sources */,
+				3BDE47CD19B0A7EF00843543 /* Frameworks */,
+				3BDE47CE19B0A7EF00843543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeuRole;
+			productName = MeuRole;
+			productReference = 3BDE47D019B0A7EF00843543 /* MeuRole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BDE47F019B0A7EF00843543 /* MeuRoleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BDE480519B0A7EF00843543 /* Build configuration list for PBXNativeTarget "MeuRoleTests" */;
+			buildPhases = (
+				3BDE47ED19B0A7EF00843543 /* Sources */,
+				3BDE47EE19B0A7EF00843543 /* Frameworks */,
+				3BDE47EF19B0A7EF00843543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BDE47F719B0A7EF00843543 /* PBXTargetDependency */,
+			);
+			name = MeuRoleTests;
+			productName = MeuRoleTests;
+			productReference = 3BDE47F119B0A7EF00843543 /* MeuRoleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BDE47C819B0A7EF00843543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FeM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Filipe de Souza";
+				TargetAttributes = {
+					3BDE47F019B0A7EF00843543 = {
+						TestTargetID = 3BDE47CF19B0A7EF00843543;
+					};
+				};
+			};
+			buildConfigurationList = 3BDE47CB19B0A7EF00843543 /* Build configuration list for PBXProject "MeuRole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BDE47C719B0A7EF00843543;
+			productRefGroup = 3BDE47D119B0A7EF00843543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BDE47CF19B0A7EF00843543 /* MeuRole */,
+				3BDE47F019B0A7EF00843543 /* MeuRoleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BDE47CE19B0A7EF00843543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDE47EC19B0A7EF00843543 /* Images.xcassets in Resources */,
+				3BDE47DE19B0A7EF00843543 /* InfoPlist.strings in Resources */,
+				3BDE47E719B0A7EF00843543 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BDE47EF19B0A7EF00843543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDE47FD19B0A7EF00843543 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BDE47CC19B0A7EF00843543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDE47EA19B0A7EF00843543 /* FeMViewController.m in Sources */,
+				3BDE47E019B0A7EF00843543 /* main.m in Sources */,
+				3BDE47E419B0A7EF00843543 /* FeMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BDE47ED19B0A7EF00843543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDE47FF19B0A7EF00843543 /* MeuRoleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BDE47F719B0A7EF00843543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BDE47CF19B0A7EF00843543 /* MeuRole */;
+			targetProxy = 3BDE47F619B0A7EF00843543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BDE47DC19B0A7EF00843543 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BDE47DD19B0A7EF00843543 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BDE47E519B0A7EF00843543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BDE47E619B0A7EF00843543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BDE47FB19B0A7EF00843543 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BDE47FC19B0A7EF00843543 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BDE480019B0A7EF00843543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BDE480119B0A7EF00843543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BDE480319B0A7EF00843543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeuRole/MeuRole-Prefix.pch";
+				INFOPLIST_FILE = "MeuRole/MeuRole-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BDE480419B0A7EF00843543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeuRole/MeuRole-Prefix.pch";
+				INFOPLIST_FILE = "MeuRole/MeuRole-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3BDE480619B0A7EF00843543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MeuRole.app/MeuRole";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeuRole/MeuRole-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MeuRoleTests/MeuRoleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3BDE480719B0A7EF00843543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MeuRole.app/MeuRole";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeuRole/MeuRole-Prefix.pch";
+				INFOPLIST_FILE = "MeuRoleTests/MeuRoleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BDE47CB19B0A7EF00843543 /* Build configuration list for PBXProject "MeuRole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDE480019B0A7EF00843543 /* Debug */,
+				3BDE480119B0A7EF00843543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BDE480219B0A7EF00843543 /* Build configuration list for PBXNativeTarget "MeuRole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDE480319B0A7EF00843543 /* Debug */,
+				3BDE480419B0A7EF00843543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BDE480519B0A7EF00843543 /* Build configuration list for PBXNativeTarget "MeuRoleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDE480619B0A7EF00843543 /* Debug */,
+				3BDE480719B0A7EF00843543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BDE47C819B0A7EF00843543 /* Project object */;
+}
