@@ -118,14 +118,14 @@
 
 - (UIImage *)applyDarkEffect
 {
-    UIColor *tintColor = [UIColor colorWithWhite:0.11 alpha:0.73];
+    UIColor *tintColor = [UIColor colorWithWhite:0.11 alpha:0.4];
     return [self applyBlurWithRadius:20 tintColor:tintColor saturationDeltaFactor:1.8 maskImage:nil];
 }
 
 
 - (UIImage *)applyTintEffectWithColor:(UIColor *)tintColor
 {
-    const CGFloat EffectColorAlpha = 0.6;
+    const CGFloat EffectColorAlpha = 0.8;
     UIColor *effectColor = tintColor;
     size_t componentCount = CGColorGetNumberOfComponents(tintColor.CGColor);
     if (componentCount == 2) {

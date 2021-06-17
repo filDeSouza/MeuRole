@@ -10,4 +10,10 @@
 
 @interface TelaInicial : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *imgTelaInicial;
+
+@property (nonatomic) NSTimer *timerVaiLogo;
+@property (weak, nonatomic) IBOutlet UILabel *labelMeuRole;
+@property (weak, nonatomic) IBOutlet UILabel *labelRole;
+
 @end

@@ -9,7 +9,7 @@
 #import "UIImageView+LBBlurredImage.h"
 #import "UIImage+ImageEffects.h"
 
-CGFloat const kLBBlurredImageDefaultBlurRadius            = 20.0;
+CGFloat const kLBBlurredImageDefaultBlurRadius            = 7.0;
 CGFloat const kLBBlurredImageDefaultSaturationDeltaFactor = 1.8;
 
 @implementation UIImageView (LBBlurredImage)

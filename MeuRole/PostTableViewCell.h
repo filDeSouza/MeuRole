@@ -10,4 +10,6 @@
 
 @interface PostTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *labelNome;
+
 @end

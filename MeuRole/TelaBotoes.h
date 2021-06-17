@@ -10,4 +10,6 @@
 
 @interface TelaBotoes : UITableViewController
 
+@property (weak, nonatomic) IBOutlet UIView *viewLogin;
+
 @end

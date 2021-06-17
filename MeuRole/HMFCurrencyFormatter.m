@@ -100,9 +100,9 @@
         }
 
         //textfield must have something in it otherwise this will crash.
- -      if ([self.assignedTextField.text length] == 0 && self.assignedTextField.delegate == self) {
- -          self.assignedTextField.text = @"$0.00";
- -      }
+       if ([self.assignedTextField.text length] == 0 && self.assignedTextField.delegate == self) {
+           self.assignedTextField.text = @"$0.00";
+       }
 
         self.toggleButton.hidden = NO;
         self.toggleButton.userInteractionEnabled = YES;

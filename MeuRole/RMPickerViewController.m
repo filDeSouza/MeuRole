@@ -178,8 +178,8 @@ typedef enum {
     return [[RMPickerViewController alloc] init];
 }
 
-static NSString *_localizedCancelTitle = @"Cancel";
-static NSString *_localizedSelectTitle = @"Select";
+static NSString *_localizedCancelTitle = @"Cancelar";
+static NSString *_localizedSelectTitle = @"Selecionar";
 
 + (NSString *)localizedTitleForCancelButton {
     return _localizedCancelTitle;
@@ -325,26 +325,26 @@ static NSString *_localizedSelectTitle = @"Select";
     
     //Setup properties of elements
     self.titleLabel.backgroundColor = [UIColor clearColor];
-    self.titleLabel.textColor = [UIColor grayColor];
+    self.titleLabel.textColor = [UIColor blackColor];
     self.titleLabel.font = [UIFont systemFontOfSize:12];
     self.titleLabel.translatesAutoresizingMaskIntoConstraints = NO;
     self.titleLabel.textAlignment = NSTextAlignmentCenter;
     self.titleLabel.numberOfLines = 0;
     
-    self.picker.layer.cornerRadius = 4;
+    self.picker.layer.cornerRadius = 0;
     self.picker.translatesAutoresizingMaskIntoConstraints = NO;
     
     [self.cancelButton setTitle:[RMPickerViewController localizedTitleForCancelButton] forState:UIControlStateNormal];
     [self.cancelButton addTarget:self action:@selector(cancelButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     self.cancelButton.titleLabel.font = [UIFont systemFontOfSize:[UIFont buttonFontSize]];
-    self.cancelButton.layer.cornerRadius = 4;
+    self.cancelButton.layer.cornerRadius = 0;
     self.cancelButton.translatesAutoresizingMaskIntoConstraints = NO;
     [self.cancelButton setContentHuggingPriority:UILayoutPriorityDefaultLow forAxis:UILayoutConstraintAxisHorizontal];
     
     [self.selectButton setTitle:[RMPickerViewController localizedTitleForSelectButton] forState:UIControlStateNormal];
     [self.selectButton addTarget:self action:@selector(doneButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     self.selectButton.titleLabel.font = [UIFont boldSystemFontOfSize:[UIFont buttonFontSize]];
-    self.selectButton.layer.cornerRadius = 4;
+    self.selectButton.layer.cornerRadius = 0;
     self.selectButton.translatesAutoresizingMaskIntoConstraints = NO;
     [self.selectButton setContentHuggingPriority:UILayoutPriorityDefaultLow forAxis:UILayoutConstraintAxisHorizontal];
 }
@@ -413,15 +413,15 @@ static NSString *_localizedSelectTitle = @"Select";
         self.cancelAndSelectButtonContainer.backgroundColor = [UIColor whiteColor];
     }
     
-    self.titleLabelContainer.layer.cornerRadius = 4;
+    self.titleLabelContainer.layer.cornerRadius = 0;
     self.titleLabelContainer.clipsToBounds = YES;
     self.titleLabelContainer.translatesAutoresizingMaskIntoConstraints = NO;
     
-    self.pickerContainer.layer.cornerRadius = 4;
+    self.pickerContainer.layer.cornerRadius = 0;
     self.pickerContainer.clipsToBounds = YES;
     self.pickerContainer.translatesAutoresizingMaskIntoConstraints = NO;
     
-    self.cancelAndSelectButtonContainer.layer.cornerRadius = 4;
+    self.cancelAndSelectButtonContainer.layer.cornerRadius = 0;
     self.cancelAndSelectButtonContainer.clipsToBounds = YES;
     self.cancelAndSelectButtonContainer.translatesAutoresizingMaskIntoConstraints = NO;
     

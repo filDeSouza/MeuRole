@@ -7,6 +7,10 @@
 //
 
 #import "TelaBotoes.h"
+#define HOME NSHomeDirectory()
+#define DOCUMENTS [HOME stringByAppendingPathComponent:@"Documents"]
+#define PATH_PICKERVIEW [DOCUMENTS stringByAppendingPathComponent:@"pickerView.plist"]
+#define PATH_PICKERVIEWESPECIALIDADES [DOCUMENTS stringByAppendingPathComponent:@"pickerViewEspecialidades.plist"]
 
 @interface TelaBotoes ()
 
@@ -27,11 +31,21 @@
 {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    NSDictionary *dicionario = [NSDictionary dictionaryWithContentsOfFile:PATH_PICKERVIEW];
+    NSString *Tipoescolhido = [dicionario objectForKey:@"pickerView"];
+    Tipoescolhido = @"";
+    NSDictionary *dicEscolhido =@{@"pickerView": Tipoescolhido};
+    [dicEscolhido writeToFile:PATH_PICKERVIEW atomically:YES];
+    
+    
+    NSDictionary *dicionarioEspecialidade = [NSDictionary dictionaryWithContentsOfFile:PATH_PICKERVIEWESPECIALIDADES];
+    NSString *TipoescolhidoEspecialidade = [dicionarioEspecialidade objectForKey:@"pickerViewEspecialidades"];
+    TipoescolhidoEspecialidade = @"";
+    NSDictionary *dicEscolhidoEspecialidade =@{@"pickerViewEspecialidades": Tipoescolhido};
+    [dicEscolhidoEspecialidade writeToFile:PATH_PICKERVIEWESPECIALIDADES atomically:YES];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

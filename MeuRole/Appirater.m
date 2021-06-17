@@ -50,13 +50,13 @@ NSString *const kAppiraterRatedCurrentVersion		= @"kAppiraterRatedCurrentVersion
 NSString *const kAppiraterDeclinedToRate			= @"kAppiraterDeclinedToRate";
 NSString *const kAppiraterReminderRequestDate		= @"kAppiraterReminderRequestDate";
 
-NSString *templateReviewURL = @"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=APP_ID";
-NSString *templateReviewURLiOS7 = @"itms-apps://itunes.apple.com/app/idAPP_ID";
-NSString *templateReviewURLiOS8 = @"itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=APP_ID&onlyLatestVersion=true&pageNumber=0&sortOrdering=1&type=Purple+Software";
+NSString *templateReviewURL = @"https://itunes.apple.com/us/app/meurole/id989028181?l=pt&ls=1&mt=8";
+NSString *templateReviewURLiOS7 = @"https://itunes.apple.com/us/app/meurole/id989028181?l=pt&ls=1&mt=8";
+NSString *templateReviewURLiOS8 = @"https://itunes.apple.com/us/app/meurole/id989028181?l=pt&ls=1&mt=8";
 
 static NSString *_appId;
-static double _daysUntilPrompt = 30;
-static NSInteger _usesUntilPrompt = 20;
+static double _daysUntilPrompt = 5;
+static NSInteger _usesUntilPrompt = 5;
 static NSInteger _significantEventsUntilPrompt = -1;
 static double _timeBeforeReminding = 1;
 static BOOL _debug = NO;

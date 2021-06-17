@@ -1,14 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   roles.plist
-   MeuRole
-
-   Created by Filipe de Souza on 05/10/16.
-   Copyright (c) 2016 Filipe de Souza. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>tipoDoRole</key>
+	<array>
+		<string>Todos</string>
+		<string>Balada</string>
+		<string>Barzinho</string>
+		<string>Casa de Shows</string>
+		<string>Cinema</string>
+		<string>Museu</string>
+		<string>Restaurante</string>
+		<string>Teatro</string>
+	</array>
+	<key>tipoRestaurante</key>
+	<array>
+		<string>Alemão</string>
+		<string>Árabe</string>
+		<string>Asiático</string>
+		<string>Brasileiro</string>
+		<string>Cantina</string>
+		<string>Chinês</string>
+		<string>Churrascaria</string>
+		<string>Contemporâneo</string>
+		<string>Creperia</string>
+		<string>Doceria</string>
+		<string>Espanhol</string>
+		<string>Fast-Food</string>
+		<string>Feijoada</string>
+		<string>Francês</string>
+		<string>Frutos do Mar</string>
+		<string>Indiano</string>
+		<string>Italiano</string>
+		<string>Japonês</string>
+		<string>Lanchonete</string>
+		<string>Mexicano</string>
+		<string>Natural</string>
+		<string>Padaria</string>
+		<string>Peruano</string>
+		<string>Pizzaria</string>
+		<string>Por Quilo</string>
+		<string>Português</string>
+		<string>Sorveteria</string>
+		<string>Variado</string>
+	</array>
+	<key>tipoBarzinho</key>
+	<array>
+		<string>Boteco</string>
+		<string>Cachaçaria</string>
+		<string>Choperia</string>
+		<string>Espetinhos</string>
+		<string>GLS</string>
+		<string>Happy Hour</string>
+		<string>Com Música</string>
+		<string>Para ir Dançar</string>
+		<string>Para Casais</string>
+		<string>Para Paquera</string>
+	</array>
+	<key>tipoBalada</key>
+	<array>
+		<string>Brega</string>
+		<string>Sertaneja</string>
+		<string>Eletrônica</string>
+		<string>Flash Dance</string>
+		<string>Forró</string>
+		<string>GLS</string>
+		<string>Micareta</string>
+		<string>Pagode</string>
+		<string>Pop</string>
+		<string>Reggae</string>
+		<string>Rip Hop</string>
+		<string>Rock</string>
+		<string>Samba</string>
+		<string>Variada</string>
+	</array>
+	<key>tipoCasaShows</key>
+	<array>
+		<string>Brega</string>
+		<string>Sertaneja</string>
+		<string>Eletrônica</string>
+		<string>Flash Dance</string>
+		<string>Forró</string>
+		<string>GLS</string>
+		<string>Micareta</string>
+		<string>Pagode</string>
+		<string>Pop</string>
+		<string>Reggae</string>
+		<string>Rip Hop</string>
+		<string>Rock</string>
+		<string>Samba</string>
+		<string>Variada</string>
+	</array>
+	<key>tipoCinema</key>
+	<array>
+		<string>Cultural</string>
+		<string>Tradicional</string>
+	</array>
+	<key>tipoMuseu</key>
+	<array>
+		<string>Arqueológico</string>
+		<string>Arte</string>
+		<string>Biográfico</string>
+		<string>Ciência</string>
+		<string>Comunitário/EcoMuseu</string>
+		<string>Etnografia</string>
+		<string>Etnografia</string>
+		<string>História</string>
+		<string>Interdisciplinar</string>
+		<string>Militar</string>
+		<string>Tecnologia</string>
+		<string>Temáticos</string>
+	</array>
+	<key>tipoTeatro</key>
+	<array>
+		<string>Comédia</string>
+		<string>Drama</string>
+		<string>Infantil</string>
+		<string>Monólogo</string>
+		<string>Ópera</string>
+		<string>Stand-up Comedy</string>
+		<string>Surrealismo</string>
+		<string>Tragédia</string>
+		<string>Tragicomédia</string>
+		<string>Teatro de Feira</string>
+		<string>Teatro de Fantoches</string>
+		<string>Teatro de Sombras</string>
+		<string>Outros</string>
+	</array>
+</dict>
 </plist>
